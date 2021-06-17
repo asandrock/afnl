@@ -1,7 +1,7 @@
 
 #F90=ifort -warn all -std03
-#F90=gfortran6 -std=f2008 -ftree-vectorize -ftree-vectorizer-verbose=2 -march=native -fopt-info -fopt-info-optimized -O3
-F90=gfortran6 -std=f2008 -Wall -pedantic -march=native -funroll-loops -O0 -finline-limit=60 -fbacktrace -ffpe-trap=underflow,overflow,denormal
+#F90=gfortran -std=f2008 -ftree-vectorize -ftree-vectorizer-verbose=2 -march=native -fopt-info -fopt-info-optimized -O3
+F90=gfortran -std=f2008 -Wall -pedantic -march=native -funroll-loops -O0 -finline-limit=60 -fbacktrace -ffpe-trap=underflow,overflow,denormal
 F90OPT=
 
 VPATH=src
